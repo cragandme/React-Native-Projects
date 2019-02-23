@@ -12,9 +12,7 @@ export default class SignUp extends Component{
         }
       }
     render(){
-        
         return(
-            
             <View style={styles.MainContainer}>
                  <TextInput style={styles.Textinput} placeholder="Name" onChangeText={name => this.setState({name})}></TextInput>
                  <TextInput style={styles.Textinput} placeholder="UserName" onChangeText={username => this.setState({username})}></TextInput>
